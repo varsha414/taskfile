@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Internship Assignment</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='stylesheet.css'>
+    <!-- js file -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Putting everything into div -->
+    <div class="mainDiv">
+        <h3>Add a new item:</h3>
+        <!-- Adding div for type of payment and Name of shopping done for-->
+        <div class="subDiv1">
+            <label class="type"> Type:</label>
+                <select id="type" name="type">  
+                    <option value="card">Card</option>  
+                    <option value="cash">Cash</option>  
+                </select> 
+            <label class="name"> Name:
+            <input id="name" type="text" name="name" placeholder="What did you spend on?"/> 
+        </div>
+        <!--Div for date and amount -->
+        <div class="subDiv2">
+            <label class="date">Date:
+            <input id="date" name="date" placeholder="mm/dd/yyyy">
+            <label class="amount">Amount:
+            <input id="amount" type="text" name="amount" placeholder="How much?"/>
+        </div>
+        <!-- button for adding new expense -->
+        <button id="newExpense"  onclick="show()"> Add a new expense </button>  <!-- giving onclick event so that when clicked on button it will go to function show -->
+        <!-- table for displaying added data -->
+        <div class="subDiv3">
+        <table class="data" id="data">
+            <tr>
+                <th>type</th>
+                <th>name</th>
+                <th>date</th>
+                <th class="amount">amount</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Total</td>
+                <td id="sum"></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    <span id="add"></span>
+</body>
+</html>

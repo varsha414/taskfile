@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+}
+/* main div styling */
+.mainDiv{
+    width:50%;
+    margin-top: 150px;
+    margin-left: 330px;
+    padding: 50px;
+    background-color: gray;
+    color:lightgrey;
+    text-align: center;
+    font-weight: lighter;
+    font-family: serif;
+}
+.mainDiv h3{
+    font-size: 35px;
+}
+/* subDiv1 styling */
+.subDiv1{
+    padding: 30px;
+} 
+.subDiv1 #type{
+    padding: 5px;
+    width:170px;
+    margin-left: 15px;
+    border-radius: 3px;
+    border: 0;
+    background-color: lightgray;
+}
+.subDiv1 .name{
+    padding: 5px;
+    width:150px;
+    margin-left: 5px;
+}
+.subDiv1 #name{
+    padding: 5px;
+    width:170px;
+    margin-left: 20px;
+    border-radius: 3px;
+    border: 0;
+}
+/* subDiv2 styling */
+.subDiv2{
+    padding: 0px;
+} 
+.subDiv2 #date{
+    padding: 5px;
+    width:160px;
+    margin-left: 15px;
+    border-radius: 3px;
+    border: 0;
+}
+.subDiv2 .amount{
+    padding: 5px;
+    width:150px;
+    margin-left: 5px;
+}
+.subDiv2 #amount{
+    padding: 5px;
+    width:170px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: 0;
+}
+/* button styling */
+#newExpense{
+    background-color: forestgreen;
+    color: white;
+    border:0;
+    padding: 18px;
+    margin-top: 50px;
+    width: 200px;
+}
+/* subDiv3 styling */
+.subDiv3 table{
+    border-radius: 2px;
+    margin-top: 25px;
+    margin-left: 80px;
+    text-align: center;
+    color:black;
+    width: 80%;
+    background-color: azure;
+}
+.subDiv3 table tr:nth-child(odd){
+    border-spacing: 1px;
+    background-color:rgb(227, 241, 241);
+}
+.subDiv3 table th{
+    padding: 8px;
+}
